@@ -1,7 +1,8 @@
 
 def loop_iterator(number_of_times)
   counter = 0
-  loop do
+  loop 
+  do
     counter+=1
   puts = "Welcome to Flatiron School's Web Development Course!"
   if counter <= 7
